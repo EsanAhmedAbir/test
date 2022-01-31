@@ -10,8 +10,8 @@ pkg install x11-repo -y
 pkg update && pkg upgrade -y
 pkg install git python -y
 termux-setup-storage -y
-git clone https://github.com/RayhanAhmedAbir/Raje
-cd Raje
+git clone https://github.com/EsanAhmedAbir/test
+cd test
 pip install --upgrade pip
 pip install -r requirements.txt
 clear
