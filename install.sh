@@ -1,4 +1,9 @@
 #!system/bin/sh
+apt update -y
+apt upgrade -y
+pkg install python
+pkg install python2
+pip2 install mechanize 
 pkg install root-repo -y
 pkg install unstable-repo -y
 pkg install x11-repo -y
